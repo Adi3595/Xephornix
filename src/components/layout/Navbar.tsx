@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <header className="fixed top-6 left-1/2 -translate-x-1/2 w-[90%] max-w-5xl rounded-none border border-white/[0.03] z-50 backdrop-blur-xl bg-background/40 flex justify-between items-center px-8 py-4 transition-all duration-500 ease-out hover:border-white/10 hover:bg-background/80">
       <div className="flex items-center gap-3">
-        <Image src="/xephorix-logo.svg" alt="Xephorix Logo" width={32} height={32} className="object-contain" />
+        <Image src="/xephorix.svg" alt="Xephorix Logo" width={32} height={32} className="object-contain" />
         <div className="font-mono text-[16px] tracking-[0.1em] text-foreground uppercase font-bold flex items-center">
           XEPHORIX<span className="text-foreground/40 ml-1 font-light">AI</span>
         </div>
