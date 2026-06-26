@@ -1,7 +1,10 @@
+import Logo from "@/components/ui/Logo";
+
 export default function AboutUs() {
   return (
-    <section id="about" className="w-full py-32 px-4 md:px-16 bg-background relative border-t border-white/[0.05]">
-      <div className="max-w-7xl mx-auto w-full flex flex-col md:flex-row items-center gap-16">
+    <section id="about" className="w-full py-32 px-4 md:px-16 bg-background relative border-t border-white/[0.05] overflow-hidden">
+      <Logo className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] text-foreground/[0.02] pointer-events-none z-0" />
+      <div className="max-w-7xl mx-auto w-full flex flex-col md:flex-row items-center gap-16 relative z-10">
         <div className="w-full md:w-1/2">
           <div className="inline-block px-3 py-1 mb-6 border border-forsythia/30 bg-forsythia/5 text-forsythia font-mono text-[10px] uppercase tracking-widest">
             ABOUT US

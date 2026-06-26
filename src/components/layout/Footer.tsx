@@ -21,9 +21,9 @@ export default function Footer() {
           <div className="space-y-4">
             <p className="text-forsythia font-bold">COMPANY</p>
             <ul className="space-y-3 text-foreground/40">
-              <li><Link className="hover:text-foreground transition-colors" href="/#network">About Us</Link></li>
-              <li><a className="hover:text-foreground transition-colors" href="mailto:admin@xephorix.ai">Contact Us</a></li>
-              <li><Link className="hover:text-foreground transition-colors" href="/careers">Careers</Link></li>
+              <li><Link className="hover:text-foreground transition-colors" href="/#about">About Us</Link></li>
+              <li><Link className="hover:text-foreground transition-colors" href="/#contact">Contact Us</Link></li>
+              <li><Link className="hover:text-foreground transition-colors" href="/#careers">Careers</Link></li>
             </ul>
           </div>
           <div className="space-y-4">
